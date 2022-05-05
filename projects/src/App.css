@@ -1,5 +1,8 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 
+body {
+  background-color: #0B192E;
+}
 .App {
   text-align: center;
   color: #8892AF;
@@ -11,20 +14,21 @@
     animation: App-logo-spin infinite 10s linear;
   }
 }
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
+.fs-big {
+  font-size: 5rem;
+}
+.fs-medium {
+  font-size: 4rem;
+}
+.marginDiv {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.lightColor {
+  color: #dde3f4;
+}
 .baseColor {
-  color: #CCD6F6;
+  color: #b6c6f9;
 }
 .darkBaseColor {
   color: #0B192E;
@@ -34,7 +38,8 @@
 }
 .selectedBtn {
   border: 1px solid #64FFDA;
-  border-radius: 10%;
+  border-radius: 5%;
+  background-color: #0B192E;
 }
 .selectedBtn:hover {
   background-color: #23f7c645;
