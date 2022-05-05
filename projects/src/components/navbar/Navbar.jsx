@@ -1,30 +1,38 @@
 import React from 'react';
+import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faR } from '@fortawesome/free-solid-svg-icons';
+
+const element = <FontAwesomeIcon icon={faR} />;
 
 export default function Navbar (props) {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Disabled</a>
-                    </li>
-                </ul>
+            <nav className="navbar navbar-expand-lg">
+                <div className="container">
+                    <a className="navbar-brand selectedColor selectedBtn px-3 App-logo" href="#">{element}</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a className="nav-link active baseColor" aria-current="page" href="#">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active baseColor" href="#">Projects</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active baseColor" href="#">Tools</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active baseColor" href="#">Contact</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active selectedColor selectedBtn" href="#">Resume</a>
+                        </li>
+                    </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
     )
 }

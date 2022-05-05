@@ -1,0 +1,19 @@
+@import '../../App.css';
+
+nav {
+    background-color: #0A1930;
+    position: sticky;
+}
+.navbar-collapse {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-nav li {
+    margin-right: 20px;
+}
+.navbar-nav li a:hover {
+    color: #64FFDA;
+}
+.show {
+    text-align: end;
+}
