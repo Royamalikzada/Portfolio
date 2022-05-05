@@ -1,0 +1,7 @@
+@import '../../App.css';
+
+img {
+    border: 1px dashed #64FFDA;
+    padding: 5px;
+    width: 70%;
+}

@@ -20,9 +20,14 @@ body {
 .fs-medium {
   font-size: 4rem;
 }
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
 .marginDiv {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-top: 9rem;
+  margin-bottom: 11rem;
 }
 .lightColor {
   color: #dde3f4;

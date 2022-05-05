@@ -3,6 +3,11 @@
 nav {
     background-color: #0A1930;
     position: sticky;
+    top: 0;
+    width: 100%;
+}
+.navbar-toggler {
+    border: 1px solid #64FFDA;
 }
 .navbar-collapse {
     flex-direction: row;
@@ -16,4 +21,5 @@ nav {
 }
 .show {
     text-align: end;
+
 }
