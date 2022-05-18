@@ -8,7 +8,7 @@ export default class Project {
 
     createProject() {
         return (
-            <div className="col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 ">
                 <div>
                     <div className="card text-center visibleBorder mb-3" style={{width: "100%"}}>
                         <img src={this.image} className="card-img-top" style={{height: "20rem"}} alt="..." />
