@@ -2,9 +2,7 @@
 
 nav {
     background-color: #0A1930;
-    position: sticky;
-    top: 0;
-    width: 100%;
+    z-index: 1;
 }
 .nav-link:focus {
     color: #64FFDA;
