@@ -11,10 +11,10 @@ const linkedin = <span className='selectedColor pe-2'><FontAwesomeIcon icon={faL
 export default function Contact (props) {
     return (
         <div className='container marginDiv'>
-            <hr className='selectedbtn' />
+            <hr className='selectedbtn mb-5' id='contact' />
             <h2 className='lightColor mb-5'>Contact</h2>
             <div className='row justify-content-evenly'>
-                <div className="col-lg-4 col-md-6 col-sm-12 pt-3 mb-3 visibleBorder lightColor">
+                <div className="col-lg-4 col-md-12 pt-3 mb-3 visibleBorder lightColor">
                     <h5> {location} Location:</h5>
                     <p className="baseColor ps-5">Rome, Italy</p>
                     <h5>{envelope} Email:</h5>
@@ -22,7 +22,7 @@ export default function Contact (props) {
                     <h5> {linkedin} LinkedIn:</h5>
                     <a className="baseColor ps-5" href='https://www.linkedin.com/in/roya-malikzada-153765184/' target='_blank'>Profile</a>
                 </div>
-                <div className="col-lg-7 col-md-6 col-sm-12 pt-3 visibleBorder lightColor">
+                <div className="col-lg-7 col-md-12 pt-3 visibleBorder lightColor">
                     <div className="mb-3">
                         <div className="row justify-content-between">
                             <div className="col-6">                        

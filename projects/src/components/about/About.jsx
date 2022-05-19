@@ -10,7 +10,7 @@ const list = <span className='selectedColor'>{element}</span>;
 export default function About (props) {
     return (
         <div className='container marginDiv'>
-            <hr className='selectedbtn' />
+            <hr className='selectedbtn mb-5'  id="about" />
             <h2 className='lightColor'> About me</h2>
             <div className='row justify-content-evenly'>
                 <div className='col-sm-12 col-md-6'>
@@ -55,7 +55,7 @@ export default function About (props) {
                 </div>
                 <div className='col-sm-12 col-md-6'>
                     <div>
-                        <img src="../../../photo_profile.jpg" alt=""/>
+                        <img src="../../../images/photo_profile.jpg" alt=""/>
                     </div>    
                 </div>
 

@@ -4,9 +4,7 @@ nav {
     background-color: #0A1930;
     z-index: 1;
 }
-.nav-link:focus {
-    color: #64FFDA;
-}
+
 .navbar-toggler {
     border: 1px solid #64FFDA;
 }

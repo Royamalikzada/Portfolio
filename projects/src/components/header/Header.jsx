@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Header (props) {
     return (
-        <div className='container marginDiv'>
+        <div className='container' >
+            <hr className='selectedbtn mb-5' id='header' />
             <p className='fs-3 selectedColor'>Hi, my name is </p>
             <h1 className='fs-big lightColor'>Roya Malikzada.</h1>
             <h2 className='fs-medium baseColor fst-italic'>I build things for the web.</h2>

@@ -9,7 +9,7 @@ const list = <span className='selectedColor pe-2'>{element}</span>;
 export default function Tools (props) {
     return (
         <div className='container marginDiv'>
-            <hr className='selectedbtn' />
+            <hr className='selectedbtn mb-5' id='tools' />
             <h2 className='lightColor mb-5'>Tools</h2>
             <div className='row baseColor fs-3'>
                 <div className='col-md-4 col-lg-3 col-sm-6'>

@@ -7,6 +7,7 @@ import Projects from './components/projects/Projects';
 import Tools from './components/tools/Tools';
 import Contact from './components/contact/Contact';
 
+
 function App() {
   return (
     <div className="container-fluid">

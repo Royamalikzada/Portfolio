@@ -14,6 +14,9 @@ body {
     animation: App-logo-spin infinite 10s linear;
   }
 }
+a:focus {
+  color: #64FFDA;
+}
 .fs-big {
   font-size: 5rem;
 }
