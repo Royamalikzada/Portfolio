@@ -6,6 +6,9 @@ nav {
     top: 0;
     width: 100%;
 }
+.nav-link:focus {
+    color: #64FFDA;
+}
 .navbar-toggler {
     border: 1px solid #64FFDA;
 }

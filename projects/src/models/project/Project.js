@@ -10,7 +10,7 @@ export default class Project {
         return (
             <div className="col-lg-4 col-md-6 col-sm-12 ">
                 <div>
-                    <div className="card text-center visibleBorder mb-3" style={{width: "100%"}}>
+                    <div className="card text-center cardBackground lightColor visibleBorder mb-3" style={{width: "100%"}}>
                         <img src={this.image} className="card-img-top" style={{height: "20rem"}} alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">{this.title}</h5>
