@@ -7,7 +7,7 @@ const element = <FontAwesomeIcon icon={faR} />;
 
 export default function Navbar (props) {
     return (
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg position-sticky top-0">
                 <div className="container">
                     <a className="navbar-brand selectedColor selectedBtn px-3 App-logo" href="#">{element}</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

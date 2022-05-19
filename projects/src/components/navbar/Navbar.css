@@ -2,7 +2,6 @@
 
 nav {
     background-color: #0A1930;
-    position: sticky;
 }
 .navbar-collapse {
     flex-direction: row;
