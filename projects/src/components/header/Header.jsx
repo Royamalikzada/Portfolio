@@ -13,7 +13,7 @@ export default function Header (props) {
                         I'm a software engineer obtained necessary skills to start my journey in 
                         Web Development World thank to self-study and full-stack development bootcamp course of <span className='selectedColor'>Epicode School</span>. 
                     </p>
-                    <button className='selectedBtn selectedColor p-3'>Check out my final project!</button>
+                    <a className='btn selectedBtn selectedColor p-3' href='https://github.com/Royamalikzada/FinalProject' target="_blank">Check out my final project!</a>
                 </div>
 
             </div>
