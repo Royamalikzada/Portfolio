@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Tools from './components/tools/Tools';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Tools />
       <Contact />
+      <Footer />
     </div>
   );
 }

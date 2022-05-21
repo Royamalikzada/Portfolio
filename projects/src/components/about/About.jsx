@@ -27,8 +27,8 @@ export default function About (props) {
                     </p>
                     <p className='baseColor mt-3'>
                         Among my strengths I would like to emphasize my passion for studying, especially foreign <span className='selectedColor'>languages</span>.
-                        I find similarities between foreign and programming languages: in both case you have to understand the logic behind of it and 
-                        apply correct methods to conquer the field of study. 
+                        I find similarities between foreign and programming languages: in either case you have to understand the logic behind it and 
+                        apply right methods to conquer the field of study. 
                     </p>
                     <p className='baseColor mt-3'>
                         And of course, who we are without sacred <span className='selectedColor'>googling</span>  skills! All this information with more details 
