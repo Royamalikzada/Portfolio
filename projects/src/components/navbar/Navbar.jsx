@@ -30,8 +30,8 @@ export default function Navbar (props) {
                         <li className="nav-item" onClick={()=>setActiveLink('contact')}>
                             <a className="nav-link baseColor" href="/#contact" style={{color:(activeLink === 'contact'&&'#64FFDA')}}>Contact</a>
                         </li>
-                        <li className="nav-item" onClick={()=>setActiveLink('resume')}>
-                            <a className="nav-link selectedColor selectedBtn" href="/assets/Roya_Malikzada_CV.pdf" download style={{color:(activeLink === 'resume'&&'#64FFDA')}}>Download CV</a>
+                        <li className="nav-item text-center align-self-end" onClick={()=>setActiveLink('resume')}>
+                            <a className="nav-link selectedColor selectedBtn p-2" href="/assets/Roya_Malikzada_CV.pdf" download style={{color:(activeLink === 'resume'&&'#64FFDA')}}>Download CV</a>
                         </li>
                     </ul>
                     </div>
